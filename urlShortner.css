@@ -1,0 +1,33 @@
+.urlField{
+    height: 3rem;
+    width: 40%;
+    border-radius: 50px;
+    text-align: center;
+    outline: 2px solid rgb(0, 132, 255);
+    border: none;
+    overflow-x: scroll;
+
+}
+.btn{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50px;
+    text-align: center;
+    outline: 2px solid rgb(0, 179, 255);
+    border: none;
+  background-color: white;
+  margin-left: 1rem;
+    color: rgb(6, 148, 237);
+    transition: ease 0.5s;
+}
+.btn:hover{
+    background-color: black ;
+    border: crimson;
+    color: white;
+    transform: scale(1.1);
+}
+#shortUrlField{
+    background-color: black;
+    color: crimson;
+ outline: none;
+}

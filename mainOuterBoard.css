@@ -1,0 +1,381 @@
+
+/* this is our navbar */
+body{
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navBar{
+    padding-top: 2rem;
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    background-color: rgb(24, 28, 39);
+    color: white;
+   
+  
+}
+.navBar span{
+    display: flex;
+
+    justify-content: space-around;
+}
+.header{
+  
+    height: 5rem;
+    width: 5rem;
+    background-image: url("logo.jpg");
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+ outline: 2px solid white;
+    
+}
+.navBar button{
+    border-radius: 5px;
+    outline: 2px solid white;
+   
+    background-color: rgb(24, 28, 39);
+     /* background-color: rgb(0, 128, 0); */
+    border: none;
+    color: white;
+    height: 2.5rem;
+    width: 5rem;
+    margin-top: 1.5rem;
+    transition: ease 0.5s;
+}
+.navBar button:hover{
+    outline: 2px solid rgb(251, 7, 7);
+   transform: scale(1.1);
+    background-color: rgb(24, 28, 39);
+
+}
+.navBar h1{
+    margin-top: 2rem;
+}
+.navBar ul{
+    padding: 2rem 18rem;
+    list-style: none;
+    display: flex;
+    color: white;
+    /* gap: 5rem; */
+    text-align: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+.navBar ul li a:hover{
+
+    text-decoration: underline;
+    color: crimson;
+}
+/* below coading starts from here*/
+
+.container{
+   
+    width: 70%;
+    height: fit-content;
+    /* background-color: rgb(24, 28, 39); */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(4,9rem);
+    grid-template-rows: repeat(3,15rem);
+    justify-content: space-around;
+    margin: 0 15% ;
+    border-radius: 50px;
+
+}
+/* .conterLogo{
+    background-image: url();
+} */
+
+
+.container > div{
+    /* border-right: 1px solid black;
+    border-bottom:1px solid black; */
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: 2rem;
+    padding: 0.5rem 2rem ;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 2px 2px 0px rgb(196, 194, 194);
+   
+}
+.icons{
+   /* font-size: 3rem; */
+   height: 4rem;
+   width: 4rem;
+
+   padding:  1rem;
+ 
+  
+}
+
+.container > div:hover{
+    border-radius: 10px;
+    border-color: crimson;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 253, 253);
+}
+/*sticky buttons css starts from here*/
+
+.stickyBtns{
+    height:4rem;
+    width:4rem;
+    background-image:url("https://www.freepnglogos.com/uploads/whatsapp-logo-png-hd-2.png");
+    background-size:contain;
+    background-position:center;
+    position:sticky;
+    left:95%;
+    top:85vh;
+    border-radius:50%;
+    transition:  ease 0.5s;
+}
+.stickyBtns:hover{
+    transform: scale(1.1);
+   
+}
+/*section 1 starts form here*/
+.section1{
+    background-image: url("https://svgsilh.com/svg/1368293.svg");
+    height: 300px;
+    width: 100%;
+  
+   background-size: contain;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    color: white;
+   
+
+    text-align: center;
+    
+
+}
+/* section2 css starts*/
+.section2{
+    margin-top: 1rem;
+    padding-top: 2rem;
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+   background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 140, 255);
+    background-repeat: no-repeat;
+    color: white;
+   
+    text-align: center;
+
+}
+.section2 p{
+    text-align: justify;
+    padding: 3rem;
+}
+/*section 3 starts from here*/
+.section3{
+    background-color: white;
+    color: black;
+    text-align: center;
+   
+}
+.pricingbtns{
+    border-radius: 10px;
+    background-color: rgb(0, 145, 255);
+    color:white;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    transition: ease 0.5s;
+
+
+}
+.pricingbtns2{
+    color: black;
+    background-color: white; 
+    border: 1px solid rgb(0, 145, 255);
+}
+.pricingbtns:hover{
+    background-color: black;
+    border: 1px solid crimson;
+    color: white;
+}
+/*footer css starts from here*/
+footer{
+    height: 120px;
+  padding: 2rem 0;
+    color: white;
+    width: 100%;
+    background-color: rgb(24, 28, 39);
+    display: flex;
+    justify-content: space-around;
+
+}
+.footericons{
+   /* border: 1px solid white; */
+   align-self: center;
+   gap: 2rem;
+   display: flex;
+    width: 20%;
+   
+    justify-content: end;
+}
+/* media queries for responsiveness*/
+/*burger button css*/
+#burgerBtn{
+    position: absolute;
+    top: 5rem;
+    display: none;
+    color: white;
+    right: 3rem;
+    font-size: 25px;
+}
+/*Side bar*/
+.sideBar{
+    height: 60vh;
+    width: 50%;
+    
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    text-align: left;
+    border-bottom-left-radius: 50px;
+  overflow: scroll;
+
+}
+
+.sideBar ul{
+    list-style: none;
+    margin-top: 3rem;
+    padding-left:0.5rem;
+    
+}
+.sideBar ul li{
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top-left-radius: 50px;
+    box-shadow: 3px 2px 11px 3px rgb(240, 240, 240);
+   border-bottom-left-radius: 50px;
+    
+    border: 1px solid gray;
+}
+.sideBar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: ease 0.5s;
+   
+}
+
+.header2{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+.cancleBtn{
+
+    position: absolute;
+    right: 1;
+    color: white;
+    left: 85%;
+    top: 1rem;
+    font-size: 23px;
+
+}
+.list{
+    transition: ease 0.5s;
+
+}
+.list:hover{
+    background-color: rgb(239, 25, 25);
+   
+   
+}
+@media (max-width: 769px)
+{
+
+    .container{
+        grid-template-columns: repeat(3 , 9rem);
+    }   
+    .navBar ul {
+        padding: 2rem 0rem;
+    }
+}
+
+@media (max-width: 426px)
+{
+
+
+
+
+    body{
+        padding: 1rem;
+    }
+    .navBar button{
+        display: none;
+    }
+    .navBar ul{
+        display: none;
+    }
+    .navBar p{
+        padding: 1rem;
+    }
+    #burgerBtn{
+        display: block;;
+    }
+    .container{
+        grid-template-columns: repeat(2 , 15rem);
+    } 
+    .section2{
+        height: fit-content;
+    }  
+    footer{
+        flex-direction: column;
+      justify-content: center;
+    }
+    footer > div{
+        margin-left: 1rem;
+    }
+    .footericons{
+        gap: 1.8rem;
+    }
+}
+@media (max-width: 376px)
+{
+
+    .container{
+        grid-template-columns: repeat(1 , 12rem);
+    }   
+    .footericons{
+        gap: 1.4rem;
+    }
+    footer{
+        padding-bottom: 4rem;
+    }
+}
+@media (max-width: 321px)
+{
+
+   
+    .footericons{
+        gap: 0.9rem;
+    }
+}

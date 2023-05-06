@@ -1,0 +1,97 @@
+
+
+.containerImage{
+    background-image: url("https://svgsilh.com/svg/1710300-03a9f4.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+}
+.Section1{
+    height: fit-content;
+    width: 100%;
+    
+    padding: 2rem 0;
+
+
+
+    display: flex;
+    flex-direction: column;
+}
+.textInput{
+   
+    border-radius: 10px;
+    height: 400px;
+   padding: 2rem 0;
+    width: 100%;
+    overflow: scroll;
+   opacity: 80%;
+   color: white;
+   font-size: 1rem;
+   background-color: black;
+    
+}
+table{
+   
+    width: 50%;
+ 
+ 
+}
+
+table tr td{
+   
+    width: 100%;
+    
+}
+.textArea{
+    overflow: hidden;
+    height: fit-content;
+    padding: 2rem 0;
+    opacity: 80%;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+.codeBtns{
+    border-radius: 10px;
+    background-color: rgb(3, 184, 255);
+    border: none;
+    color: white;
+    margin: 1rem;
+  
+    padding: 1rem;
+   
+}
+/*for counter result section css*/
+.textAreaResult{
+    border-radius: 50%;
+    height: 4rem;
+    font-size: 2rem;
+    color: white;
+    
+    padding: 2rem;
+    width: 4rem;
+    background-color: black;
+    text-align: center;
+}
+.counterImage{
+    background-image: url("https://svgsilh.com/svg/158109-03a9f4.svg");
+}
+/* translation css*/
+.translationImage{
+    background-image: url("https://svgsilh.com/svg/1299301-03a9f4.svg");
+}
+/*text convertor css*/
+.textConvertImage{
+    background-image: url("https://svgsilh.com/svg/146341-03a9f4.svg");
+}
+@media (max-width:766px)
+{
+    table{
+       
+        width: 100%;
+     
+     
+    }
+}
