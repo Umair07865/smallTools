@@ -6,6 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="mainOuterBoard.css">
+   <link rel="stylesheet" href="textEncodeDecoder.css">
    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
 
    <title>Tools Hub</title>
@@ -20,42 +21,239 @@
          <div class="header">
 
          </div>
+         <!-- this is our unorder list-->
+
+         <ul>
+            <li>
+               <a href="mainOuterBoard.html">Home</a>
+            </li>
+            <li id="textToolLi">
+              
+               Text & Lang Tools
+               <i class="fa-solid fa-angle-down"></i>
+               
+
+
+            
+            
+              
+            </li>
+            <li id="calcTools">
+             
+             Calculation Tools
+             <i class="fa-solid fa-angle-down"></i>
+             
+            </li>
+            <li id="generateTools">
+             
+               Generators
+               <i class="fa-solid fa-angle-down"></i>
+               
+              </li>
+
+         </ul>
+
+         <!-- the unorder list ends here-->
          <div class="buttons">
-            <button>
-               login
+            <button id="logInBtn">
+               Sign Up
             </button>
          </div>
       </span>
 
 
-      <center>
 
-         <h1>Text Analysis Tools</h1>
-         <p>A complete set of text tools is now at your fingertips. , count words or change text case.</p>
-
-         <ul>
-            <li>
-               <a href="">Home</a>
-            </li>
-            <li>
-               <a href="#">About</a>
-            </li>
-            <li>
-               <a href="">Services</a>
-            </li>
-            <li>
-               <a href="">Contat us</a>
-            </li>
-
-         </ul>
-      </center>
    </div>
    <!-- navbar ends here-->
+   <!-- nav bar drop down section for text and language changer-->
+   <div class="dropdown1" id="languageTextTools">
+      <a href="textEncodeDecoder.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-lock"></i>
+            </td>
+            <td> <h4>ENCODER DECODER</h4></td>
+         </tr>
+         <tr>
+            <td>
+                  Converts text from one format to another securely.
+            </td>
+         </tr>
+      </table>
+      </a>
+      <!-- for language convertor   -->
+      <a href="languageChanger.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-language"></i>
+            </td>
+            <td> <h4>TRANSLATOR</h4></td>
+         </tr>
+         <tr>
+            <td>
+               Translates English text into Urdu for easy communication.
+            </td>
+         </tr>
+      </table>
+   </a>
+   <!-- table two for text font convertor-->
+   <a href="textConvertor.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-cash-register"></i>
+            </td>
+            <td> <h4>TEXT FONT CONVERTOR</h4></td>
+         </tr>
+         <tr>
+            <td>
+               A tool that converts text into different font styles.
+            </td>
+         </tr>
+      </table>
+      </a>
+
+   </div>
+   <!-- drop down one  for the text and laguage convertor section ends here-->
+   <!-- drop down 2 section for the calculation tools-->
+   <div class="dropdown1" id="CalculationsTool">
+      <a href="calc.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-calculator"></i>
+            </td>
+            <td> <h4>CALCULATOR</h4></td>
+         </tr>
+         <tr>
+            <td>
+               A tool for performing mathematical calculations.
+            </td>
+         </tr>
+      </table>
+      </a>
+      <!-- for language convertor   -->
+      <a href="dashboard.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-stopwatch-20"></i>
+            </td>
+            <td> <h4>WORD COUNTER</h4></td>
+         </tr>
+         <tr>
+            <td>
+               A tool for counting the number of words in text.
+            </td>
+         </tr>
+      </table>
+   </a>
+   <!-- table two for text font convertor-->
+ 
+
+   </div>
+   <!-- drop down sections 2  for  calculation tools ends here-->
+   <!-- drop down three section for generator starts here-->
+   <div class="dropdown1" id="GenerationTools">
+      <a href="urlShortner.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-link"></i>
+            </td>
+            <td> <h4>URL SHORTNER</h4></td>
+         </tr>
+         <tr>
+            <td>
+               Converts long URLs into shorter, more manageable links.
+            </td>
+         </tr>
+      </table>
+      </a>
+      <!-- for language convertor   -->
+      <a href="CardsGenerator.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-address-card"></i>
+            </td>
+            <td> <h4>CARD GENERATOR</h4></td>
+         </tr>
+         <tr>
+            <td>
+               Creates custom cards for various purposes quickly and easily.
+            </td>
+         </tr>
+      </table>
+   </a>
+   <!-- table two for text font convertor-->
+   <a href="ipLocator.html">
+      <table>
+         <tr>
+            <td rowspan="2">
+               <i class="fa-solid fa-map-location-dot"></i>
+            </td>
+            <td> <h4>IP LOGGER</h4></td>
+         </tr>
+         <tr>
+            <td>
+               Tracks and logs IP addresses for online activity monitoring.
+            </td>
+         </tr>
+      </table>
+      </a>
+
+   </div>
+    <!-- drop down three section for generator ends here-->
+
+   <div class="addedSection">
+
+      <div class="textInnerArea">
+
+
+         <h1>Small tools</h1>
+         <p>A complete set of text tools is now at your fingertips. , count words or change text case.</p>
+
+         <div class="buttons">
+            <button class="btns">
+               Get Started
+            </button>
+            <i class="fa-solid fa-circle-play fa-fade"> View Demo</i>
+         </div>
+      </div>
+   </div>
+   
+
+
+
+
+
+   <!-- our custom crousal ends here-->
 
 
    <!-- sticky buttons-->
    <div class="stickyBtns" id="stickyBtns">
    </div>
+
+   
+  <!-- social media contacts-->
+
+  <div class="socialContacts ">
+   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="loading" class="socialContactImage">
+   <img src="   https://static.vecteezy.com/system/resources/previews/018/930/584/original/linkedin-logo-linkedin-icon-transparent-free-png.png
+   " alt="loading" class="socialContactImage">
+
+ <img src="https://logodownload.org/wp-content/uploads/2017/11/telegram-logo-8.png" alt="loading" class="socialContactImage">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_2012_logo.svg/2048px-Twitter_2012_logo.svg.png" alt="loading" class="socialContactImage">
+   <img src="https://thumbs.dreamstime.com/b/rounded-instagram-logo-web-print-transparent-white-background-use-printing-purpose-165758567.jpg" alt="loading" class="socialContactImage">
+   <img src="https://freelogopng.com/images/all_img/1657906383gmail-icon-png.png" alt="loading" class="socialContactImage">
+   <img src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.png" alt="loading" class="socialContactImage">
+
+</div>
+
+<!--ends here-->
 
 
    <!-- sicky button ends here-->
@@ -80,13 +278,28 @@
 
          </li>
          <li class="list">
-            <a href="">About</a>
+            <a href="ipLocator.html">IP Locator</a>
          </li>
          <li class="list">
-            <a href="">Services</a>
+            <a href="urlShortner.html">URL Shortner</a>
          </li>
          <li class="list">
-            <a href="">Contact</a>
+            <a href="textEncodeDecoder.html">Encoder Decoder</a>
+         </li>
+         <li class="list">
+            <a href="textConvertor.html">Text Font Convertor</a>
+         </li>
+         <li class="list">
+            <a href="languageChanger.html">Translator</a>
+         </li>
+         <li class="list">
+            <a href="calc.html">Calculator</a>
+         </li>
+         <li class="list">
+            <a href="dashboard.html">Word Counter</a>
+         </li>
+         <li class="list">
+            <a href="CardsGenerator.html">Card Generator</a>
          </li>
          <li class="list">
             <a href="">Login</a>
@@ -100,7 +313,7 @@
 
 
    <div class="container">
-      
+
       <div id="icon1">
          <img
             src="https://play-lh.googleusercontent.com/9hr0YGpCJxzepGdwHGFkl26zlojRJOxOOIKC37LoRjkbzpatigtWTksii6MJ2QlH_es"
@@ -109,7 +322,7 @@
          <h5>Words Counter</h5>
       </div>
       <div id="icon2">
-       
+
          <img src="https://img.freepik.com/free-vector/digital-translator-abstract-concept-illustration_335657-3769.jpg"
             alt="loading" class="icons">
          <h5>Eng to urdu translator</h5>
@@ -160,10 +373,263 @@
       </div>
 
    </div>
-   <!-- section 1 starts from here-->
-   <div class="section1 ">
+   <!-- reviews section-->
+
+   <div class="urlSection1">
+
+      <table>
+         <!-- row one-->
+         <tr>
+               <td rowspan="2">
+                  <img src="https://assets.apilayer.com/apis/short_url.png" alt="loading" class="UrlShortnerImage">
+                  
+               </td>
+               <td >
+                  <h1 class="headTag">URL Shortner</h1>
+               </td>
+         </tr>
+         <!-- row two-->
+         <tr>
+            <td >
+               <p>
+                  A URL shortener is a web-based tool that allows users to shorten lengthy website links for ease of sharing, particularly on social media platforms.
+               </p>
+            
+            </td>
+
+         </tr>
+         <!-- row three-->
+         <tr>
+            <td colspan="2" >
+               <div class="ratingParentNode">
+
+             
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFm00KapeOv-vJozjh9bRY8mn5V7MYKIl6Bg&usqp=CAU" alt="loading" class="icons">
+               <img src="https://static.vecteezy.com/system/resources/thumbnails/004/256/658/small/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg" alt="loading" class="iconRating">
+            </div>
+            </td>
+
+         </tr>
+         <!-- row four-->
+         <tr>
+            <td colspan="2">
+               <!-- button 1-->
+               <button class="urlSection1Btns ">
+                  Subscribe for free
+               </button>
+               <!-- button 2-->
+               <button class="urlSection1Btns btnCostomize">
+                  Live Demo
+                  
+               </button>
+            </td>
+
+         </tr>
+      </table>
+
+      <div class="codeEditorSection">
+         { <br> <br>
+            <span class="textcl1"> "result" </span> :  <span class="textcl2"> true</span>
+            <br>
+            <br>
+         }
+      </div>
+
 
    </div>
+   <!-- url review section ends here-->
+
+
+   <!-- text encoder decoader -->
+
+
+   <div class="urlSection1">
+
+      <table>
+         <!-- row one-->
+         <tr>
+               <td rowspan="2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw_GGSYeixZHkHdnOFANUzB8LNPVf1hVYlnlApuEcprNTgloB0pQHqbmFoeOhtw9hj3nU&usqp=CAU" alt="loading" class="UrlShortnerImage">
+                  
+                  
+               </td>
+               <td >
+                  <h1 class="headTag"> Encoder Decoder</h1>
+               </td>
+         </tr>
+         <!-- row two-->
+         <tr>
+            <td >
+               <p>
+                  A text encoder decoder is a tool that converts data from one format to another, such as encryption and decryption of sensitive information. </p>
+            
+            </td>
+
+         </tr>
+         <!-- row three-->
+         <tr>
+            <td colspan="2" >
+               <div class="ratingParentNode">
+
+             
+                  <img src="https://cdn.online-converting.com/wp-content/uploads/logo.png" alt="loading" class="icons">
+               <img src="https://static.vecteezy.com/system/resources/thumbnails/004/256/658/small/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg" alt="loading" class="iconRating">
+            </div>
+            </td>
+
+         </tr>
+         <!-- row four-->
+         <tr>
+            <td colspan="2">
+               <!-- button 1-->
+               <button class="urlSection1Btns ">
+                  Subscribe for free
+               </button>
+               <!-- button 2-->
+               <button class="urlSection1Btns btnCostomize">
+                  Live Demo
+                  
+               </button>
+            </td>
+
+         </tr>
+      </table>
+
+      <div class="codeEditorSection">
+         { <br> <br>
+            <span class="textcl1"> "result" </span> :  <span class="textcl2"> true</span>
+            <br>
+            <br>
+         }
+      </div>
+
+
+   </div>
+   <!--text endcoder deocder reviw ends here-->
+
+ <!--text language changer-->
+
+
+ <div class="urlSection1">
+   
+   <table>
+      <!-- row one-->
+      <tr>
+            <td rowspan="2">
+               <img src="https://play-lh.googleusercontent.com/bRrJM_aNOgm_O2SSqnc3-vIcZ5_Z7BWtfeFRdR0aj6Szz8MOgUUPmnakZ0iSlHHdMZE" alt="loading" class="UrlShortnerImage">
+               
+               
+            </td>
+            <td >
+               <h1 class="headTag">Translator</h1>
+            </td>
+      </tr>
+      <!-- row two-->
+      <tr>
+         <td >
+            <p>
+               An English to Urdu translator is a tool that converts English text into Urdu language, allowing for better communication and understanding between individuals who speak different languages.
+             </p>
+         </td>
+
+      </tr>
+      <!-- row three-->
+      <tr>
+         <td colspan="2" >
+            <div class="ratingParentNode">
+
+          
+               <img src="https://img.freepik.com/free-vector/digital-translator-abstract-concept-illustration_335657-3769.jpg"
+      alt="loading" class="icons">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/004/256/658/small/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg" alt="loading" class="iconRating">
+         </div>
+         </td>
+
+      </tr>
+      <!-- row four-->
+      <tr>
+         <td colspan="2">
+            <!-- button 1-->
+            <button class="urlSection1Btns ">
+               Subscribe for free
+            </button>
+            <!-- button 2-->
+            <button class="urlSection1Btns btnCostomize">
+               Live Demo
+               
+            </button>
+         </td>
+
+      </tr>
+   </table>
+
+   <div class="codeEditorSection">
+      { <br> <br>
+         <span class="textcl1"> "result" </span> :  <span class="textcl2"> true</span>
+         <br>
+         <br>
+      }
+   </div>
+
+
+</div>
+
+
+   <!--text language changer reviw ends here-->
+
+
+   <!-- reviews section ends here-->
+   <!-- crousal section starts from here-->
+
+
+   <center>
+
+      <div class="crousal-outer">
+         <!-- video one-->
+         <div class="crousal-inner">
+            <ul class="ulist">
+               <li class="crlist"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYHQHRXA94DvrAjOwqXaFa3-4i5_uxwTln8w&usqp=CAU"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://play-lh.googleusercontent.com/m4vD3GKU2azDXLrOAS4RUslDEDoEbYOMJF5W1NlQacjbBBXr6lgMvIzpQPuV-2G7ux4"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://www.urdutrans.com/wp-content/uploads/2017/06/Urdu-Trans-Logo.png"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://play-lh.googleusercontent.com/9hr0YGpCJxzepGdwHGFkl26zlojRJOxOOIKC37LoRjkbzpatigtWTksii6MJ2QlH_es"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://play-lh.googleusercontent.com/eeqT5oAqwlaAmrELF5SSc6ol6scd4GxOgK7Hhfc6zgywGpZkhWkf2ddM8XFkOERto_ZK"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://www.freelogodesign.org/assets/img/home/business-card-mockup.webp"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw_GGSYeixZHkHdnOFANUzB8LNPVf1hVYlnlApuEcprNTgloB0pQHqbmFoeOhtw9hj3nU&usqp=CAU"
+                     class="d-block cccimg" alt="..."></li>
+               <li class="crlist"> <img
+                     src="https://help.apple.com/assets/6398A9D9257A2C1D9026967A/6398A9DD257A2C1D9026968B/en_US/23628197c5c099a5855a530b8e1473a3.png"
+                     class="d-block cccimg" alt="..."></li>
+
+               <li class="crlist"> <img src="   https://play-lh.googleusercontent.com/P0Gle_AxrDRTAURAu-TZe_CgbJ4ubo1CowQ4chch4NzXsZdbGf6LHVbP-gp_p1MY6LRo
+                        " class="d-block cccimg" alt="..."></li>
+
+
+
+
+            </ul>
+
+
+
+
+         </div>
+
+       
+   </center>
+
+   <!-- crousal section ends here-->
+
 
    <!-- 2nd tools section-->
    <div class="container">
@@ -231,6 +697,7 @@
 
    <div class="section2">
 
+
       <h1> Small Seo Tools And Idealogies</h1>
       <p>At SST, our ideologies are very different from what is out there. We believe that there is a better way to do
          marketing. We believe that just as the best things in life are free, the best SEO tools should be free for
@@ -241,15 +708,218 @@
          Our mission is to provide excellent SEO tools that can compete with the paid ones out there, or even perform
          better than them — but free for anyone to use.
 
-         We focus on search engine optimization and content because these are the crux of Internet marketing. Once you
-         get your content and SEO right, the traffic will flow and ultimately your sales.
-
-         SEO on its own is so complex and not easily understood or implementable. We see that as an opportunity to help
-         people — we're excited to simplify SEO for everyone through our tools, education, and community.
 
       </p>
 
    </div>
+  
+
+
+   <!-- section 1 cards section starts from here-->
+   <div class="section1 ">
+
+      <table>
+
+         <!--this is the First row of the cards-->
+         <tr>
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="data:image/jpeg;base64,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"
+                     alt="loading" class="icons">
+                  <h1> IP locator</h1>
+
+                  <p>An IP locator is a tool that is used to determine the geographical location of a particular IP
+                     address. IP locators can be used to track the location of website visitors, identify potential
+                     security threats, and troubleshoot network issues. They work by analyzing the IP address and
+                     matching it to a specific geographic location, such as a city or country.</p>
+               </div>
+
+            </td>
+
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFm00KapeOv-vJozjh9bRY8mn5V7MYKIl6Bg&usqp=CAU"
+                     alt="loading" class="icons">
+                  <h1> URL Shortner</h1>
+
+                  <p>
+                     A URL shortener is a tool that is used to convert long, unwieldy URLs into shorter, more manageable
+                     links. These tools are commonly used in social media, email, and other digital communications where
+                     space is limited. They work by redirecting the short URL to the original long URL, allowing users
+                     to share links more easily and effectively. URL shorteners also offer additional features such as
+                     link tracking and analytics.
+
+                  </p>
+               </div>
+
+            </td>
+         </tr>
+         <!-- this is the second row of the cards-->
+         <tr>
+
+            <td>
+               <div class="cardsTes">
+
+                  <img src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png"
+                     alt="loading" class="icons">
+
+                  <h1>Calculator</h1>
+
+                  <p>
+                     A calculator is a tool used for performing mathematical calculations. It typically has a keypad for
+                     inputting numbers and mathematical operators, as well as a display screen for showing the results
+                     of calculations. Calculators can perform a wide range of mathematical functions, from basic
+                     arithmetic operations such as addition and subtraction to more complex operations such as
+                     trigonometric functions and logarithms. They are used in a variety of fields including finance,
+                     science, engineering, and education.
+
+                  </p>
+               </div>
+            </td>
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="https://play-lh.googleusercontent.com/9hr0YGpCJxzepGdwHGFkl26zlojRJOxOOIKC37LoRjkbzpatigtWTksii6MJ2QlH_es"
+                     alt="loading" class="icons">
+                  <h1>Word Counter</h1>
+
+                  <p>
+                     A word counter is a tool used for counting the number of words in a piece of text. It can be used
+                     for tracking the length of a document or meeting specific word count requirements. Word counters
+                     are available as standalone applications or as built-in features of word processing software. They
+                     can also offer additional features, such as analyzing sentence and paragraph structure or
+                     generating readability statistics.
+                  </p>
+               </div>
+            </td>
+         </tr>
+
+         <!-- this is the third row of the cards-->
+         <tr>
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="https://img.freepik.com/free-vector/digital-translator-abstract-concept-illustration_335657-3769.jpg"
+                     alt="loading" class="icons">
+                  <h1>English To Urdu convertor</h1>
+                  <p>
+                     An English to Urdu converter is a tool that is used for translating English text into Urdu
+                     language. This tool can be useful for people who are not familiar with the Urdu language but need
+                     to communicate with Urdu-speaking individuals or access Urdu-language content. It works by
+                     analyzing the English text and converting it into the equivalent Urdu text.
+                  </p>
+               </div>
+            </td>
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="data:image/png;base64,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"
+                     alt="loading" class="icons">
+                  <h1>Text Changer</h1>
+                  <p>
+                     A text font changer is a tool that allows users to change the font style, size, and color of text
+                     in a document or on a website. This can be useful for adding emphasis to specific parts of text,
+                     improving readability, or creating visually appealing designs. Text font changers are available as
+                     standalone applications or as built-in features of word processing software and website design
+                     tools.
+                  </p>
+               </div>
+
+            </td>
+         </tr>
+         <!-- this is the fourth row of the cards-->
+
+         <tr>
+            <td>
+               <div class="cardsTes">
+                  <img
+                     src="https://repository-images.githubusercontent.com/268408186/ce026080-a42c-11ea-8791-af6641cf9989"
+                     alt="loading" class="icons">
+                  <h1>Card Generation</h1>
+                  <p>
+                     A card generator is a tool that is used for creating custom cards for various purposes, such as
+                     greeting cards, business cards, ID cards, and more. These tools typically offer a wide range of
+                     design templates, customization options, and editing tools that allow users to create unique and
+                     professional-looking cards. Card generators are available as standalone applications or as online
+                     tools that can be accessed through a web browser.
+                  </p>
+               </div>
+            </td>
+            <td>
+               <div class="cardsTes">
+                  <img src="https://cdn.online-converting.com/wp-content/uploads/logo.png" alt="loading" class="icons">
+
+                  <h1>Text Encoder Decoder</h1>
+                  <p>
+                     An encoder decoder is a tool used for converting data from one format to another. It works by
+                     encoding the data into a different format that can be transmitted or stored more efficiently, and
+                     then decoding it back into its original format at the receiving end. Encoders and decoders are used
+                     in a variety of applications, such as encryption and decryption, multimedia compression, and
+                     digital communications. They are available as standalone applications or as built-in features of
+                     software and hardware systems.
+                  </p>
+               </div>
+            </td>
+         </tr>
+
+      </table>
+
+   </div>
+    <!-- section testonomials starts from here-->
+
+
+    <section class="testonomials">
+      <div>
+         <img
+            src="https://www.shutterstock.com/image-vector/employer-branding-banner-web-icon-260nw-1996400240.jpg"
+            class="testonomialsIcon" alt="loading">
+
+            <p>
+              " I recently discovered the Small Tools website and have been impressed with their wide range of affordable and high-quality tools. The website is easy to navigate and the customer service is excellent. I highly recommend checking them out for all your tool needs!" </p>
+     
+     
+              <img src="https://faces-img.xcdn.link/image-lorem-face-2915.jpg" alt="loading" class="liimg"> 
+               <b> <h2>Denis Owen</h2></b>
+               <p>General Manager, Branding and Social <br>
+               Media | <b>Hong Kong Airlines</b></p>
+         
+             
+              
+            </div>
+      <div>
+         <img
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm74t-gUsG89erwpj5IxIywd5oYl4QDpwiRg&usqp=CAU" class="testonomialsIcon" alt="loading">
+
+         <p>
+           " I recently discovered the Small Tools website and have been impressed with their wide range of affordable and high-quality tools. The website is easy to navigate and the customer service is excellent. I highly recommend checking them out for all your tool needs!" </p>
+  
+         <img src=" https://faces-img.xcdn.link/thumb-lorem-face-4079_thumb.jpg" alt="loading" class="liimg"> 
+          <b> <h2>Jessica Graham</h2></b>
+          <p>VP of Brand, Partnerships and Product<br>
+            Marketing | <b>Helix</b></p>
+      </div>
+      <div>
+         <img
+            src="data:image/png;base64,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"
+            class="testonomialsIcon" alt="loading">
+
+            <p>
+              " I recently discovered the Small Tools website and have been impressed with their wide range of affordable and high-quality tools. The website is easy to navigate and the customer service is excellent. I highly recommend checking them out for all your tool needs!" </p>
+     
+         <img src="https://faces-img.xcdn.link/image-lorem-face-1027.jpg" alt="loading" class="liimg"> 
+          <b> <h2>Albert Phillips</h2></b>
+          <p>Seo Manager, Management and Product<br>
+            Marketing | <b>CodeBlock</b></p>
+      </div>
+ 
+
+   </section>
+
+
+
+   <!-- section testonomials ends here-->
 
 
    <section class="section3 section2">
@@ -266,26 +936,75 @@
 
    <!-- footer starts from here-->
    <footer>
-      <div>
-         <div class="header">
+      <div class="headdiv">
+         <!-- header icon-->
+         <img src="https://thehub-io.imgix.net/files/s3/20220311111000-3cdac2dc0cb87598041189d1bd08b42a.png?fit=crop&w=300&h=300&auto=format&q=60" alt="alt" class="footerLogoDesign">
+       
+
+         <!--social media connects logos-->
+         <div class="footerContactIcons">
+            <i class="fa-brands fa-twitter fa-fade"></i>
+            <i class="fa-brands fa-facebook-f fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+           
+            <i class="fa-brands fa-linkedin fa-fade"></i>
+            <i class="fa-brands fa-github fa-fade"></i>
 
          </div>
 
-         <p> @copy 2023 Toolhub. All Rights Reserved.
-         </p>
-
       </div>
-      <div class="footericons">
-         contact us
-         <i class="fa-brands fa-facebook fa-fade"></i>
-         <i class="fa-brands fa-twitter fa-fade"></i>
-         <i class="fa-brands fa-whatsapp fa-fade"></i>
-         <i class="fa-brands fa-instagram fa-fade"></i>
-
+      <!-- ul one-->
+      <div>
+         <ul>
+            <li>
+               <h3>Product</h3>
+            </li>
+            <li>Martekplace</li>
+            <li>List Your API</li>
+            <li> Why Choose Us</li>
+            <li>Press</li>
+         </ul>
+      </div>
+        <!-- ul two-->
+      <div>
+         <ul>
+            <li>
+               <h3>Docs & Help</h3>
+            </li>
+            <li>Docs</li>
+            <li>Blog</li>
+            <li> FAQS</li>
+            <li>Write For Us</li>
+            <li> API Glossary</li>
+         </ul>
+      </div>
+        <!-- ul three-->
+      <div>
+         <ul>
+            <li>
+               <h3>Account</h3>
+            </li>
+            <li>Sign in</li>
+            <li>Forgot Password </li>
+            <li> FREE Sign-up</li>
+            
+         </ul>
+      </div>
+        <!-- ul four-->
+      <div>
+         <ul>
+            <li>
+               <h3>Get In Touch</h3>
+            </li>
+            <li>Support</li>
+            <li>List Your API</li>
+           
+            <li>Contact Us</li>
+         </ul>
       </div>
    </footer>
 
-
+ 
 
 
    <script src="https://kit.fontawesome.com/2932318f3b.js" crossorigin="anonymous"></script>

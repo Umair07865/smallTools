@@ -14,45 +14,285 @@
 </head>
 
 <body>
-   <!-- this is our navbar-->
+<!-- this is our navbar-->
 
 
-   <div class="navBar">
+<div class="navBar">
    <span>
       <div class="header">
 
       </div>
+      <!-- this is our unorder list-->
+
+      <ul>
+         <li>
+            <a href="mainOuterBoard.html">Home</a>
+         </li>
+         <li id="textToolLi">
+           
+            Text & Lang Tools
+            <i class="fa-solid fa-angle-down"></i>
+            
+
+
+         
+         
+           
+         </li>
+         <li id="calcTools">
+          
+          Calculation Tools
+          <i class="fa-solid fa-angle-down"></i>
+          
+         </li>
+         <li id="generateTools">
+          
+            Generators
+            <i class="fa-solid fa-angle-down"></i>
+            
+           </li>
+
+      </ul>
+
+      <!-- the unorder list ends here-->
       <div class="buttons">
-         <button>
-            login
+         <button id="logInBtn">
+            Sign Up
          </button>
       </div>
    </span>
 
 
-   <center>
 
-   <h1>Text Convertor</h1>
-   <p>A complete set of text tools is now at your fingertips. ,  count words or change text case.</p>
+</div>
+<!-- navbar ends here-->
+<!-- nav bar drop down section for text and language changer-->
+<div class="dropdown1" id="languageTextTools">
+   <a href="textEncodeDecoder.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-lock"></i>
+         </td>
+         <td> <h4>ENCODER DECODER</h4></td>
+      </tr>
+      <tr>
+         <td>
+               Converts text from one format to another securely.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="languageChanger.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-language"></i>
+         </td>
+         <td> <h4>TRANSLATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Translates English text into Urdu for easy communication.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+<a href="textConvertor.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-cash-register"></i>
+         </td>
+         <td> <h4>TEXT FONT CONVERTOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool that converts text into different font styles.
+         </td>
+      </tr>
+   </table>
+   </a>
 
-   <ul>
-      <li>
-         <a href="">Home</a>
-      </li>
-      <li>
-         <a href="#">About</a>
-      </li>
-      <li>
-         <a href="">Services</a>
-      </li>
-      <li>
-         <a href="">Contat us</a>
-      </li>
-     
-   </ul>
-</center>
+</div>
+<!-- drop down one  for the text and laguage convertor section ends here-->
+<!-- drop down 2 section for the calculation tools-->
+<div class="dropdown1" id="CalculationsTool">
+   <a href="calc.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-calculator"></i>
+         </td>
+         <td> <h4>CALCULATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool for performing mathematical calculations.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="dashboard.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-stopwatch-20"></i>
+         </td>
+         <td> <h4>WORD COUNTER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool for counting the number of words in text.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+
+
+</div>
+<!-- drop down sections 2  for  calculation tools ends here-->
+<!-- drop down three section for generator starts here-->
+<div class="dropdown1" id="GenerationTools">
+   <a href="urlShortner.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-link"></i>
+         </td>
+         <td> <h4>URL SHORTNER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Converts long URLs into shorter, more manageable links.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="CardsGenerator.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-address-card"></i>
+         </td>
+         <td> <h4>CARD GENERATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Creates custom cards for various purposes quickly and easily.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+<a href="ipLocator.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-map-location-dot"></i>
+         </td>
+         <td> <h4>IP LOGGER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Tracks and logs IP addresses for online activity monitoring.
+         </td>
+      </tr>
+   </table>
+   </a>
+
+</div>
+ <!-- drop down three section for generator ends here-->
+
+   
+   <div class="addedSection encoderImage ">
+   
+      <div class="textInnerArea textConvertImageHeader">
+   
+   
+         <h1>Text Convertor</h1>
+         <p>Transforms text into different fonts and styles for customization.</p>
+   
+         <div class="buttons">
+            <button class="btns">
+               Get Started
+            </button>
+            <i class="fa-solid fa-circle-play fa-fade"> View Demo</i>
+         </div>
+      </div>
    </div>
-
+   
+   
+   <!--encoder decoder section1 starts from here-->
+   
+      <div class="urlSection1">
+   
+         <table>
+            <!-- row one-->
+            <tr>
+                  <td rowspan="2">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC8f-6OY9WasZdUkC7Zyc8MATG6XK7g3pZyA&usqp=CAU" alt="loading" class="UrlShortnerImage">
+                     
+                     
+                  </td>
+                  <td >
+                     <h1 class="headTag"> Text Convertor</h1>
+                  </td>
+            </tr>
+            <!-- row two-->
+            <tr>
+               <td >
+                 <p>A text form converter is a tool that converts data from one format to another, allowing for easy transformation of data for various purposes such as data entry or storage.</p>
+               </td>
+   
+            </tr>
+            <!-- row three-->
+            <tr>
+               <td colspan="2" >
+                  <div class="ratingParentNode">
+   
+                
+                     <img   src="data:image/png;base64,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"
+            alt="loading" class="icons">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/004/256/658/small/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg" alt="loading" class="iconRating">
+               </div>
+               </td>
+   
+            </tr>
+            <!-- row four-->
+            <tr>
+               <td colspan="2">
+                  <!-- button 1-->
+                  <button class="urlSection1Btns ">
+                     Subscribe for free
+                  </button>
+                  <!-- button 2-->
+                  <button class="urlSection1Btns btnCostomize">
+                     Live Demo
+                     
+                  </button>
+               </td>
+   
+            </tr>
+         </table>
+   
+         <div class="codeEditorSection">
+            { <br> <br>
+               <span class="textcl1"> "result" </span> :  <span class="textcl2"> true</span>
+               <br>
+               <br>
+            }
+         </div>
+   
+   
+      </div>
+   
+   
 
    <!-- sticky buttons-->
      <div class="stickyBtns">
@@ -65,7 +305,7 @@
    
     <i class="fa-solid fa-bars " id="burgerBtn"></i>
     <!-- side bar-->
-    <div class="sideBar" >
+    <div class="sideBar">
 
       <div class="sideBarHeader">
          <div class="header header2">
@@ -77,25 +317,40 @@
       <ul>
          <li class="list">
             <a href="">Home</a>
-         
+
          </li>
          <li class="list">
-            <a href="">About</a>
+            <a href="ipLocator.html">IP Locator</a>
          </li>
          <li class="list">
-            <a href="">Services</a>
+            <a href="urlShortner.html">URL Shortner</a>
          </li>
          <li class="list">
-            <a href="">Contact</a>
+            <a href="textEncodeDecoder.html">Encoder Decoder</a>
          </li>
          <li class="list">
-           <a href="">Login</a>
+            <a href="textConvertor.html">Text Font Convertor</a>
+         </li>
+         <li class="list">
+            <a href="languageChanger.html">Translator</a>
+         </li>
+         <li class="list">
+            <a href="calc.html">Calculator</a>
+         </li>
+         <li class="list">
+            <a href="dashboard.html">Word Counter</a>
+         </li>
+         <li class="list">
+            <a href="CardsGenerator.html">Card Generator</a>
+         </li>
+         <li class="list">
+            <a href="">Login</a>
 
          </li>
       </ul>
 
 
-    </div>
+   </div>
    <!-- below sections are starting form here-->
 
   
@@ -186,25 +441,75 @@
    
    <!-- footer starts from here-->
    <footer>
-      <div>
-         <div class="header">
+      <div class="headdiv">
+         <!-- header icon-->
+         <div class="header"></div>
+
+         <!--social media connects logos-->
+         <div class="footerContactIcons">
+            <i class="fa-brands fa-twitter fa-fade"></i>
+            <i class="fa-brands fa-facebook-f fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+           
+            <i class="fa-brands fa-linkedin fa-fade"></i>
+            <i class="fa-brands fa-github fa-fade"></i>
 
          </div>
 
-        <p> @copy 2023 Toolhub. All Rights Reserved.
-      </p>
-
       </div>
-      <div class="footericons">
-         contact us
-         <i class="fa-brands fa-facebook fa-fade"></i>
-         <i class="fa-brands fa-twitter fa-fade"></i>
-         <i class="fa-brands fa-whatsapp fa-fade"></i>
-         <i class="fa-brands fa-instagram fa-fade"></i>
-        
+      <!-- ul one-->
+      <div>
+         <ul>
+            <li>
+               <h3>Product</h3>
+            </li>
+            <li>Martekplace</li>
+            <li>List Your API</li>
+            <li> Why Choose Us</li>
+            <li>Press</li>
+         </ul>
+      </div>
+        <!-- ul two-->
+      <div>
+         <ul>
+            <li>
+               <h3>Docs & Help</h3>
+            </li>
+            <li>Docs</li>
+            <li>Blog</li>
+            <li> FAQS</li>
+            <li>Write For Us</li>
+            <li> API Glossary</li>
+         </ul>
+      </div>
+        <!-- ul three-->
+      <div>
+         <ul>
+            <li>
+               <h3>Account</h3>
+            </li>
+            <li>Sign in</li>
+            <li>Forgot Password </li>
+            <li> FREE Sign-up</li>
+            
+         </ul>
+      </div>
+        <!-- ul four-->
+      <div>
+         <ul>
+            <li>
+               <h3>Get In Touch</h3>
+            </li>
+            <li>Support</li>
+            <li>List Your API</li>
+           
+            <li>Contact Us</li>
+         </ul>
       </div>
    </footer>
 
+ 
+<!--footer ends here-->
 
 
 

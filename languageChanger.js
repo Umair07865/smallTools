@@ -1,41 +1,4 @@
 
-// this is pragraph rewriter
-// document.getElementById("icon2").addEventListener("click",()=>{
-//     alert("clicked");
-//     window.location.href="languageChanger.html";
-// })
-
-
-    // document.getElementById("btnnew").addEventListener("click",()=>{
-    //     alert("clciked")
-    // })
-    //     var parag=document.getElementById("text2").value;
-    
-    //     const url = 'https://article-rewriter.p.rapidapi.com/api/v1/generate-variants';
-    // const options = {
-    //     method: 'POST',
-    //     headers: {
-    //         'content-type': 'application/x-www-form-urlencoded',
-    //         'X-RapidAPI-Key': 'cb317de3eemsh321973d11497a40p1b0af3jsnb28b4969959b',
-    //         'X-RapidAPI-Host': 'article-rewriter.p.rapidapi.com'
-    //     },
-    //     body: new URLSearchParams({
-    //         text: `${parag}`
-    //     })
-    // };
-    
-    // try {
-    //     const response =  fetch(url, options);
-    //     const result =  response.text();
-    //     console.log(result);
-    // } catch (error) {
-    //     console.error(error);
-    // }
-    
-
-
-    // language changer
-
    
 
     document.querySelector("#btnnew").addEventListener("click",()=>{
@@ -57,3 +20,70 @@
         })
 
     })
+
+        
+/* Drop dow section elements targetting*/ 
+
+var textLang=document.getElementById("languageTextTools");
+var calculationsTools=document.getElementById("CalculationsTool");
+var generationTools=document.getElementById("GenerationTools");
+
+var calcTools= document.getElementById("calcTools");
+var  generateTools=document.getElementById("generateTools");
+
+var textToolLi=document.getElementById("textToolLi");
+calcTools.addEventListener("click",()=>{
+   
+   
+    generationTools.style.display="none";
+      
+    textLang.style.display="none";
+    calculationsTools.style.display="block";
+    calculationsTools.style.display="flex";
+
+  
+})
+
+
+generateTools.addEventListener("click",()=>{
+   
+
+    calculationsTools.style.display="none";
+    textLang.style.display="none";
+    generationTools.style.display="block";
+    generationTools.style.display="flex";
+   
+})
+
+textToolLi.addEventListener("click",()=>{
+    calculationsTools.style.display="none";
+    generationTools.style.display="none";
+    textLang.style.display="block";
+    textLang.style.display="flex";
+    
+})
+
+// side bar management with burger button targetting the elements
+
+var bugerBtnTarget=document.getElementById("burgerBtn");
+var sideBarTarget=document.querySelector(".sideBar");
+var cancleBtnTarget=document.getElementById("cancleBtn")
+bugerBtnTarget.addEventListener("click",()=>{
+
+sideBarTarget.style.display="block"
+
+document.body.style.overflow="hidden "
+
+})
+cancleBtnTarget.addEventListener("click",()=>{
+   
+    document.body.style.overflow="scroll"
+    sideBarTarget.style.display="none"
+
+})
+
+//login button
+document.getElementById("logInBtn").addEventListener("click",()=>{
+    localStorage.clear();
+    window.location.href="signup.html";
+})

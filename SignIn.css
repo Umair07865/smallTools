@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+font-family:fantasy  ;
+}
+.parentDiv{
+   
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+   
+}
+.parentDiv h1{
+    color: rgb(3, 209, 255);
+}
+.signupcolor{
+    color: rgb(0, 0, 0);
+}
+.childDiv{
+   
+    background-color: white;
+    height: 700px;
+    width: 40%;
+    margin: 5px 0;
+   
+   
+
+}
+.childDivImg{
+  
+    border-bottom-left-radius: 10px  ;
+
+    border-top-left-radius: 10px;
+
+    background-size: contain;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/005/879/539/small_2x/cloud-computing-modern-flat-concept-for-web-banner-design-man-enters-password-and-login-to-access-cloud-storage-for-uploading-and-processing-files-illustration-with-isolated-people-scene-free-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.childDivForm{
+    border-bottom-right-radius: 10px ;
+
+    border-top-right-radius:10px;
+  
+    
+   
+}
+.childDivForm img{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 6rem;
+}
+.inputFields{
+    height: 1rem;
+
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 50px;
+    
+    padding: 1rem;
+    width: 50%;
+  color: rgb(0, 0, 0);
+     border: 1px solid rgb(2, 206, 247);
+    margin-top: 1rem;
+}
+.btnSubmit{
+    border-radius: 20px;
+    background-color: rgb(3, 200, 255);
+    height: 3rem;
+    color: white;
+    width: 6rem;
+    border: 1px solid white;
+    transition: ease 1s;
+    
+}
+.btnSubmit:hover{
+    background-color: black;
+    border: 1px solid crimson;
+
+}
+@media(max-width:787px)
+{
+    .parentDiv{
+        flex-direction: column;
+padding-top: 0;
+    }
+    .childDiv{
+        width: 100%;
+        border-radius: 0px;
+        margin: 0;
+    }
+    .childDivImg{
+       display: none;
+    }
+   
+}
+/*sign up page css*/
+.Save{
+    background-color: rgb(0, 157, 255);
+}
+.savefields{
+    background-color:rgb(10 60 51);
+  
+}
+.childimg{
+    background-image: url("https://cdni.iconscout.com/illustration/premium/thumb/login-3305943-2757111.png");
+}

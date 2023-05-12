@@ -1,4 +1,15 @@
+
+
+
+
+.Urlimage{
+    background-image: url("https://easydmarc.com/blog/wp-content/uploads/2022/06/URL-Shorteners_-Pros-and-Cons.jpg");
+}
+.Section1{
+    margin-top: 4rem;
+}
 .urlField{
+  
     height: 3rem;
     width: 40%;
     border-radius: 50px;

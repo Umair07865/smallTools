@@ -1,5 +1,101 @@
 
+.urlSection1{
 
+    height:fit-content;
+    justify-content: space-around;
+    width:100%;
+   padding-top: 2rem;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    
+}
+.urlSection1 table{
+   
+    width:40%;
+   
+    height:100px;
+}
+
+.urlSection1 table tr td{
+    padding: 0 1.5rem;
+  
+
+}
+
+.urlSection1Btns{
+    width: 47%;
+    border-radius: 5px;
+    background-color: rgb(28,82,197);
+    height: 3rem;
+    color: white;
+    border: none;
+    margin-left: 1rem;
+   
+}
+.btnCostomize{
+    background-color:rgb(232,237,249);
+    color:rgb(28,82,197);
+    
+}
+.UrlShortnerImage{
+    height:10rem;
+  
+    width:10rem;
+    border-radius:50px;
+    margin-left:10%
+}
+.urlSection1 p{
+    color: gray;
+}
+.headTag{
+   
+    /* width: 25rem; */
+    color:rgb(28,82,197);
+    letter-spacing: 9px;
+   
+}
+.iconRating{
+    height: 3rem;
+    width: 9rem;
+    margin-top: 2rem;
+}
+.ratingParentNode{
+    display: flex;
+    height: fit-content;
+    
+    gap: 12rem;
+    justify-content: right;
+   
+  
+   
+}
+/* code editor section*/
+.codeEditorSection{
+   
+    width: 40%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    
+  
+}
+.textcl1{
+    color: greenyellow;
+}
+.textcl2{
+    color: rgb(112, 74, 236);
+}
+/*URLSection one ends here*/
+
+/* Word counter ends here*/
+.dashboardImage{
+    background-image: url("https://www.newswhip.com/wp-content/uploads/2019/08/My-Movie-2-Large-mov-image.jpg");
+}
+
+
+/*words counter ends here*/
 .containerImage{
     background-image: url("https://svgsilh.com/svg/1710300-03a9f4.svg");
     background-position: center;
@@ -32,16 +128,17 @@
    background-color: black;
     
 }
-table{
+.Section1 table{
    
     width: 50%;
- 
+   
  
 }
 
-table tr td{
+.Section1 table tr td{
    
     width: 100%;
+    padding: 0;
     
 }
 .textArea{
@@ -86,12 +183,63 @@ table tr td{
 .textConvertImage{
     background-image: url("https://svgsilh.com/svg/146341-03a9f4.svg");
 }
-@media (max-width:766px)
+/*language changer css starts here*/
+.TranslatorImage{
+    background-image: url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/261644813/original/d4c0106bc473d4f859efda2efcbf64726a7a4377/professionally-english-to-urdu-translation.png");
+}
+/* Text changer css starts here*/
+
+.textConvertImageHeader{
+    height: 300px;
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/b50eee3d-4b8e-4efc-83e9-24ec12cac8aa/dai96d3-479380f4-b9a5-4321-a695-df4250d9617a.png")
+}
+@media (max-width:769px)
 {
+    .urlSection1{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .Section1 table{
+        width: 100%;
+    }
     table{
        
         width: 100%;
      
      
     }
+    .urlSection1 table{
+        width: 100%;
+    }
+    .urlSection1 table tr td{
+        padding: 0;
+      
+    }
+    .codeEditorSection {
+        padding: 0;
+    }
+    .urlSection1 table tr td h1{
+        padding-left:5rem ;
+    }
+    .urlSection1 table tr td p{
+        padding-left:5rem ;
+    }
+    .ratingParentNode{
+        gap: 0;
+        justify-content: space-around;
+    }
+    .codeEditorSection{
+        width: 100%;
+        height: 300px;
+      
+    }
+}
+@media (max-width:426px){
+    .urlSection1 table tr td h1{
+        padding-left:0rem ;
+    }
+    .urlSection1 table tr td p{
+        padding-left:0rem ;
+    }
+
 }

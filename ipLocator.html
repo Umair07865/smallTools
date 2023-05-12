@@ -7,50 +7,293 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="mainOuterBoard.css">
    <link rel="stylesheet" href="ipLocator.css">
+   <link rel="stylesheet" href="textEncodeDecoder.css">
    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
 
    <title>Tools Hub</title>
 </head>
 
 <body>
-   <!-- this is our navbar-->
+  <!-- this is our navbar-->
 
 
-   <div class="navBar">
+  <div class="navBar">
    <span>
       <div class="header">
 
       </div>
+      <!-- this is our unorder list-->
+
+      <ul>
+         <li>
+            <a href="mainOuterBoard.html">Home</a>
+         </li>
+         <li id="textToolLi">
+           
+            Text & Lang Tools
+            <i class="fa-solid fa-angle-down"></i>
+            
+
+
+         
+         
+           
+         </li>
+         <li id="calcTools">
+          
+          Calculation Tools
+          <i class="fa-solid fa-angle-down"></i>
+          
+         </li>
+         <li id="generateTools">
+          
+            Generators
+            <i class="fa-solid fa-angle-down"></i>
+            
+           </li>
+
+      </ul>
+
+      <!-- the unorder list ends here-->
       <div class="buttons">
-         <button>
-            login
+         <button id="logInBtn">
+            Sign Up
          </button>
       </div>
    </span>
 
 
-   <center>
 
-   <h1>IP Locator</h1>
-   <p>A complete set of text tools is now at your fingertips. ,  count words or change text case.</p>
+</div>
+<!-- navbar ends here-->
+<!-- nav bar drop down section for text and language changer-->
+<div class="dropdown1" id="languageTextTools">
+   <a href="textEncodeDecoder.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-lock"></i>
+         </td>
+         <td> <h4>ENCODER DECODER</h4></td>
+      </tr>
+      <tr>
+         <td>
+               Converts text from one format to another securely.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="languageChanger.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-language"></i>
+         </td>
+         <td> <h4>TRANSLATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Translates English text into Urdu for easy communication.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+<a href="textConvertor.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-cash-register"></i>
+         </td>
+         <td> <h4>TEXT FONT CONVERTOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool that converts text into different font styles.
+         </td>
+      </tr>
+   </table>
+   </a>
 
-   <ul>
-      <li>
-         <a href="">Home</a>
-      </li>
-      <li>
-         <a href="#">About</a>
-      </li>
-      <li>
-         <a href="">Services</a>
-      </li>
-      <li>
-         <a href="">Contat us</a>
-      </li>
-     
-   </ul>
-</center>
+</div>
+<!-- drop down one  for the text and laguage convertor section ends here-->
+<!-- drop down 2 section for the calculation tools-->
+<div class="dropdown1" id="CalculationsTool">
+   <a href="calc.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-calculator"></i>
+         </td>
+         <td> <h4>CALCULATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool for performing mathematical calculations.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="dashboard.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-stopwatch-20"></i>
+         </td>
+         <td> <h4>WORD COUNTER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            A tool for counting the number of words in text.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+
+
+</div>
+<!-- drop down sections 2  for  calculation tools ends here-->
+<!-- drop down three section for generator starts here-->
+<div class="dropdown1" id="GenerationTools">
+   <a href="urlShortner.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-link"></i>
+         </td>
+         <td> <h4>URL SHORTNER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Converts long URLs into shorter, more manageable links.
+         </td>
+      </tr>
+   </table>
+   </a>
+   <!-- for language convertor   -->
+   <a href="CardsGenerator.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-address-card"></i>
+         </td>
+         <td> <h4>CARD GENERATOR</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Creates custom cards for various purposes quickly and easily.
+         </td>
+      </tr>
+   </table>
+</a>
+<!-- table two for text font convertor-->
+<a href="ipLocator.html">
+   <table>
+      <tr>
+         <td rowspan="2">
+            <i class="fa-solid fa-map-location-dot"></i>
+         </td>
+         <td> <h4>IP LOGGER</h4></td>
+      </tr>
+      <tr>
+         <td>
+            Tracks and logs IP addresses for online activity monitoring.
+         </td>
+      </tr>
+   </table>
+   </a>
+
+</div>
+ <!-- drop down three section for generator ends here-->
+
+   <div class="addedSection IploggerImage ">
+   
+      <div class="textInnerArea">
+   
+   
+         <h1>IP Logger</h1>
+         <p>Tracks and logs IP addresses for online activity monitoring.</p>
+   
+         <div class="buttons">
+            <button class="btns">
+               Get Started
+            </button>
+            <i class="fa-solid fa-circle-play fa-fade"> View Demo</i>
+         </div>
+      </div>
    </div>
+   
+   
+   <!--URL Shortner section1 starts from here-->
+   
+      <div class="urlSection1">
+   
+         <table>
+            <!-- row one-->
+            <tr>
+                  <td rowspan="2">
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyJHhOJZxyov4aVjMFxE3Wz2NNulKWXviUuiVMJAdnmYsgY04m5XkxxFOflAXFeq2wr2k&usqp=CAU" alt="loading" class="UrlShortnerImage">
+                     
+                     
+                  </td>
+                  <td >
+                     <h1 class="headTag"> IP Logger</h1>
+                  </td>
+            </tr>
+            <!-- row two-->
+            <tr>
+               <td >
+                  <p>
+                     An IP logger is a tool that tracks and logs IP addresses of individuals accessing a website, allowing for monitoring and analysis of online activity for various purposes.
+                  </p>
+                  
+               </td>
+   
+            </tr>
+            <!-- row three-->
+            <tr>
+               <td colspan="2" >
+                  <div class="ratingParentNode">
+   
+                
+                     <img src="https://publishing-platform.whoisxmlapi.com/wordpress/wp-content/uploads/2020/12/the-ip-geolocation-api-guide-why-tracking-web-users-whereabouts-matters.png" alt="loading" class="icons">
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/004/256/658/small/five-star-customer-product-ratings-review-flat-icons-for-apps-and-websites-illustration-of-five-golden-yellow-stars-in-a-row-isolated-in-a-white-background-concepts-for-ratings-customers-review-free-vector.jpg" alt="loading" class="iconRating">
+               </div>
+               </td>
+   
+            </tr>
+            <!-- row four-->
+            <tr>
+               <td colspan="2">
+                  <!-- button 1-->
+                  <button class="urlSection1Btns ">
+                     Subscribe for free
+                  </button>
+                  <!-- button 2-->
+                  <button class="urlSection1Btns btnCostomize">
+                     Live Demo
+                     
+                  </button>
+               </td>
+   
+            </tr>
+         </table>
+   
+         <div class="codeEditorSection">
+            { <br> <br>
+               <span class="textcl1"> "result" </span> :  <span class="textcl2"> true</span>
+               <br>
+               <br>
+            }
+         </div>
+   
+   
+      </div>
+   
+   
 
 
    <!-- sticky buttons-->
@@ -63,8 +306,8 @@
     <!--burger button and side bar-->
    
     <i class="fa-solid fa-bars " id="burgerBtn"></i>
-    <!-- side bar-->
-    <div class="sideBar" >
+     <!-- side bar-->
+     <div class="sideBar">
 
       <div class="sideBarHeader">
          <div class="header header2">
@@ -76,25 +319,40 @@
       <ul>
          <li class="list">
             <a href="">Home</a>
-         
+
          </li>
          <li class="list">
-            <a href="">About</a>
+            <a href="ipLocator.html">IP Locator</a>
          </li>
          <li class="list">
-            <a href="">Services</a>
+            <a href="urlShortner.html">URL Shortner</a>
          </li>
          <li class="list">
-            <a href="">Contact</a>
+            <a href="textEncodeDecoder.html">Encoder Decoder</a>
          </li>
          <li class="list">
-           <a href="">Login</a>
+            <a href="textConvertor.html">Text Font Convertor</a>
+         </li>
+         <li class="list">
+            <a href="languageChanger.html">Translator</a>
+         </li>
+         <li class="list">
+            <a href="calc.html">Calculator</a>
+         </li>
+         <li class="list">
+            <a href="dashboard.html">Word Counter</a>
+         </li>
+         <li class="list">
+            <a href="CardsGenerator.html">Card Generator</a>
+         </li>
+         <li class="list">
+            <a href="">Login</a>
 
          </li>
       </ul>
 
 
-    </div>
+   </div>
    <!-- below sections are starting form here-->
 
   
@@ -218,24 +476,75 @@
    
    <!-- footer starts from here-->
    <footer>
-      <div>
-         <div class="header">
+      <div class="headdiv">
+         <!-- header icon-->
+         <div class="header"></div>
+
+         <!--social media connects logos-->
+         <div class="footerContactIcons">
+            <i class="fa-brands fa-twitter fa-fade"></i>
+            <i class="fa-brands fa-facebook-f fa-fade"></i>
+            <i class="fa-brands fa-instagram fa-fade"></i>
+           
+            <i class="fa-brands fa-linkedin fa-fade"></i>
+            <i class="fa-brands fa-github fa-fade"></i>
 
          </div>
 
-        <p> @copy 2023 Toolhub. All Rights Reserved.
-      </p>
-
       </div>
-      <div class="footericons">
-         contact us
-         <i class="fa-brands fa-facebook fa-fade"></i>
-         <i class="fa-brands fa-twitter fa-fade"></i>
-         <i class="fa-brands fa-whatsapp fa-fade"></i>
-         <i class="fa-brands fa-instagram fa-fade"></i>
-        
+      <!-- ul one-->
+      <div>
+         <ul>
+            <li>
+               <h3>Product</h3>
+            </li>
+            <li>Martekplace</li>
+            <li>List Your API</li>
+            <li> Why Choose Us</li>
+            <li>Press</li>
+         </ul>
+      </div>
+        <!-- ul two-->
+      <div>
+         <ul>
+            <li>
+               <h3>Docs & Help</h3>
+            </li>
+            <li>Docs</li>
+            <li>Blog</li>
+            <li> FAQS</li>
+            <li>Write For Us</li>
+            <li> API Glossary</li>
+         </ul>
+      </div>
+        <!-- ul three-->
+      <div>
+         <ul>
+            <li>
+               <h3>Account</h3>
+            </li>
+            <li>Sign in</li>
+            <li>Forgot Password </li>
+            <li> FREE Sign-up</li>
+            
+         </ul>
+      </div>
+        <!-- ul four-->
+      <div>
+         <ul>
+            <li>
+               <h3>Get In Touch</h3>
+            </li>
+            <li>Support</li>
+            <li>List Your API</li>
+           
+            <li>Contact Us</li>
+         </ul>
       </div>
    </footer>
+
+ 
+<!--footer ends here-->
 
 
 

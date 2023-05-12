@@ -1,4 +1,20 @@
-// targetting the elements 
+//dashboard validation
+
+if(!localStorage.getItem("access_token"))
+{
+    alert(" sign up first");
+    window.location.href="signup.html"
+}
+
+//login button
+document.getElementById("logInBtn").addEventListener("click",()=>{
+    localStorage.clear();
+    window.location.href="signup.html";
+})
+
+// targetting the elements
+
+
 
 document.getElementById("icon1").addEventListener("click",()=>{
   
@@ -45,9 +61,15 @@ var cancleBtnTarget=document.getElementById("cancleBtn")
 bugerBtnTarget.addEventListener("click",()=>{
 
 sideBarTarget.style.display="block"
+
+document.body.style.overflow="hidden "
+
 })
 cancleBtnTarget.addEventListener("click",()=>{
+   
+    document.body.style.overflow="scroll"
     sideBarTarget.style.display="none"
+
 })
 
 
@@ -62,35 +84,45 @@ whatsappbtn.addEventListener("click",()=>{
 
 
 
-// different apis this one is the language changer
-//  var parag=document.getElementById("text2").value;
-// document.getElementById("btn2").addEventListener("click", async ()=>{
-
-
-// const url = 'https://japerk-text-processing.p.rapidapi.com/phrases/';
-// const options = {
-// 	method: 'POST',
-// 	headers: {
-// 		'content-type': 'application/x-www-form-urlencoded',
-// 		'X-RapidAPI-Key': 'cb317de3eemsh321973d11497a40p1b0af3jsnb28b4969959b',
-// 		'X-RapidAPI-Host': 'japerk-text-processing.p.rapidapi.com'
-// 	},
-// 	body: new URLSearchParams({
-// 		language: 'spanish',
-// 		text: `${parag}`
-// 	})
-// };
-
-// try {
-// 	const response = await fetch(url, options);
-// 	const result = await response.text();
-// 	console.log(result);
-// } catch (error) {
-// 	console.error(error);
-// }
-// })
-
     
+/* Drop dow section elements targetting*/ 
+
+var textLang=document.getElementById("languageTextTools");
+var calculationsTools=document.getElementById("CalculationsTool");
+var generationTools=document.getElementById("GenerationTools");
+
+var calcTools= document.getElementById("calcTools");
+var  generateTools=document.getElementById("generateTools");
+
+var textToolLi=document.getElementById("textToolLi");
+calcTools.addEventListener("click",()=>{
+   
+ 
+    generationTools.style.display="none";
+      
+    textLang.style.display="none";
+    calculationsTools.style.display="block";
+    calculationsTools.style.display="flex";
+
+  
+})
 
 
+generateTools.addEventListener("click",()=>{
+   
+
+    calculationsTools.style.display="none";
+    textLang.style.display="none";
+    generationTools.style.display="block";
+    generationTools.style.display="flex";
+   
+})
+
+textToolLi.addEventListener("click",()=>{
+    calculationsTools.style.display="none";
+    generationTools.style.display="none";
+    textLang.style.display="block";
+    textLang.style.display="flex";
+    
+})
 
