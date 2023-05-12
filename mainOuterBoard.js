@@ -3,13 +3,13 @@
 if(!localStorage.getItem("access_token"))
 {
     alert(" sign up first");
-    window.location.href="signup.html"
+    window.location.href="Signup.html"
 }
 
 //login button
 document.getElementById("logInBtn").addEventListener("click",()=>{
     localStorage.clear();
-    window.location.href="signup.html";
+    window.location.href="Signup.html";
 })
 
 // targetting the elements

@@ -103,5 +103,5 @@ cancleBtnTarget.addEventListener("click",()=>{
 //login button
 document.getElementById("logInBtn").addEventListener("click",()=>{
     localStorage.clear();
-    window.location.href="signup.html";
+    window.location.href="Signup.html";
 })
