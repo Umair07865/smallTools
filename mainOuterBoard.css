@@ -524,7 +524,7 @@ footer ul li{
     
 }
 .sideBar ul li{
-    margin-top: 1rem;
+    
     padding: 1rem;
   
     
@@ -689,6 +689,9 @@ footer ul li{
     .buttons i{
         padding:  1rem 0;
 
+       }
+       .section2 h1{
+        font-size: 24px;
        }
    
    
