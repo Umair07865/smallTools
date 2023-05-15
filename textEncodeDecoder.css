@@ -32,6 +32,12 @@
     margin-left: 1rem;
    
 }
+.urlImageLogo{
+    height: 6rem;
+    width: 6rem;
+    
+ 
+}
 .btnCostomize{
     background-color:rgb(232,237,249);
     color:rgb(28,82,197);
