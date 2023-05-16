@@ -772,8 +772,11 @@ footer ul li{
     }
     .container > div{
 
-        padding-left: 18%;
+        padding: 1rem 32%;
+        width: fit-content;
+        text-align: center !important;
     }
+    
    
    
 

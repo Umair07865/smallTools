@@ -59,7 +59,7 @@ document.getElementById("icon8").addEventListener("click",()=>{
 
 var whatsappbtn=document.getElementById("stickyBtns");
 whatsappbtn.addEventListener("click",()=>{
-    alert(" the button has been clicked")
+  
     window.location.href="https://web.whatsapp.com/"
    
 })
